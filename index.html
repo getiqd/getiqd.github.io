@@ -1,0 +1,23 @@
+<html><head><title>Crash my phone!</title>
+<script>
+	function iDevice() {
+		alert("iDevice");
+	}
+	function android() {
+		alert("android");
+	}
+	function fuck() {
+		alert("hell nah");
+	}
+	if(navigator.userAgent.includes("iPad") || navigator.userAgent.includes("iPod") || navigator.userAgent.includes("iPhone")) {
+		iDevice();
+	} else if(navigator.userAgent.includes("Android")) {
+		android();
+	} else {
+		fuck();
+	}
+</script>
+	</head>
+	<body>
+	</body>
+</html>
